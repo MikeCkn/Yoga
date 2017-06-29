@@ -1,16 +1,22 @@
 * {
-	font-family: Lato, sans-serif;
+	font-family: Bubbler One, sans-serif;
 	/*border: 1px solid black;*/
 }
 
 body {
-	margin: 0;
-	padding: 0;
+    background: linear-gradient(0deg, #d5f5ed, #ffffff);
+/*    background-size: 400% 400%;*/
+    animation: body 33s ease infinite;
 }
 
+@keyframes body { 
+    0%{background-position:49% 0%}
+    50%{background-position:52% 100%}
+    100%{background-position:49% 0%}
+}
 /*========== NAV ==========*/
 nav {
-	height: 100px;
+	height: 120px;
 	line-height: 100px;
 	text-align: center;
 }
@@ -19,16 +25,17 @@ nav a {
 	text-transform: uppercase;
 	font-size: 1.2em;
 	font-weight: lighter;
-	color: #88e3f4;
-	border-top: 2px solid rgba(0,0,0,0);
+	color: #000;
+	border-top: 3px solid rgba(0,0,0,0);
 	margin: 0;
+	letter-spacing: 0.2em;
 }
 
 nav a:hover {
 	transition: 0.5s;
-	border-top: 2px solid #d46185;
+	border-top: 3px solid #acf0a8;
 	text-decoration: none;
-	text-shadow: 1px 1px 1px #d46185;
+	text-shadow: 1px 1px 1px #acf0a8;
 }
 
 #logo {
@@ -38,13 +45,21 @@ nav a:hover {
 /*========== SECTION 1 ==========*/
 .section1 {
 	height: 600px;
-	background-image: url(images/background.jpg);
+	background-image: url(images/background3.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
 }
 
+.section1 a {
+	border: 1px solid #acf0a8;
+	border-radius: 10px;
+	color: #acf0a8;
+	margin-left: 700px;
+}
+/*========== END SECTION 1 ==========*/
+/*========== SECTION 2 ==========*/
 .section2 {
 	height: 600px;
 }
-/*========== END SECTION 1 ==========*/
+/*========== END SECTION 2 ==========*/
