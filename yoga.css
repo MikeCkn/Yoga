@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(0deg, #d5f5ed, #ffffff);
+    background: linear-gradient(10deg, #d5f5ed, #ffffff);
 /*    background-size: 400% 400%;*/
     animation: body 33s ease infinite;
 }
@@ -60,6 +60,41 @@ nav a:hover {
 /*========== END SECTION 1 ==========*/
 /*========== SECTION 2 ==========*/
 .section2 {
-	height: 600px;
+	height: 300px;
+	padding-top: 100px;
+}
+
+.section2 img {
+	height: 300px;
+	opacity: 0.5;
+}
+
+.section2 img:hover {
+	opacity: 1;
+	transition: 0.4s;
 }
 /*========== END SECTION 2 ==========*/
+
+/*========== SECTION 3 ==========*/
+.section3 {
+	height: 300px;
+	padding-top: 100px;
+}
+
+.section3 p {
+	font-size: 1.3em;
+}
+/*========== END SECTION 3 ==========*/
+
+/*========== FOOTER ==========*/
+.footer a{
+	color: #000;
+	padding-left: 10px;
+}
+
+.footer a:hover {
+	transition: 0.5s;
+	color: #f2eaef;
+	text-shadow: 3px 3px 15px #ed82ca;
+}
+/*========== END FOOTER ==========*/
