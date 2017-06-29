@@ -1,0 +1,50 @@
+* {
+	font-family: Lato, sans-serif;
+	/*border: 1px solid black;*/
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*========== NAV ==========*/
+nav {
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+nav a {
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: lighter;
+	color: #88e3f4;
+	border-top: 2px solid rgba(0,0,0,0);
+	margin: 0;
+}
+
+nav a:hover {
+	transition: 0.5s;
+	border-top: 2px solid #d46185;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #d46185;
+}
+
+#logo {
+	height: 100px;
+}
+/*========== END NAV ==========*/
+/*========== SECTION 1 ==========*/
+.section1 {
+	height: 600px;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.section2 {
+	height: 600px;
+}
+/*========== END SECTION 1 ==========*/
